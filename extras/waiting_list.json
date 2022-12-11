@@ -1,0 +1,12 @@
+{
+    "waiting_list": [
+        {
+            "customer_name": "Numo",
+            "holiday": "thanksgiving"
+        },
+        {
+            "customer_name": "Chris",
+            "holiday": "thanksgiving"
+        }
+    ]
+}

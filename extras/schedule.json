@@ -1,0 +1,34 @@
+{
+    "Ezekiel": [
+        {
+            "customer_name": "Emma",
+            "holiday": "thanksgiving"
+        },
+        {
+            "customer_name": "Becky",
+            "holiday": "independence day"
+        }
+    ],
+    "Jane": [
+        {
+            "customer_name": "Joy",
+            "holiday": "thanksgiving"
+        }
+    ],
+    "Joe": [
+        {
+            "customer_name": "Luke",
+            "holiday": "children day"
+        }
+    ],
+    "Kelvin": [
+        {
+            "customer_name": "Grace",
+            "holiday": "thanksgiving"
+        },
+        {
+            "customer_name": "Divine",
+            "holiday": "children day"
+        }
+    ]
+}
