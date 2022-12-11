@@ -23,6 +23,7 @@ class BookTwister:
             self.schedules[twister] = [self.data,]
             UpdateSchedule(self.schedules).update()
             HolidayBookings(self.data["holiday"], self.data["customer_name"], twister).update()
+            print(f"Schedule: balloon_twister: {twister}, {self.data}")
         else:
             for count, item in enumerate(self.schedules.items()):
                 for i in item[1]:
@@ -37,6 +38,7 @@ class BookTwister:
                 
                 UpdateSchedule(self.schedules).update()
                 HolidayBookings(self.data["holiday"], self.data["customer_name"], twister).update()
+                print(f"Schedule: balloon_twister: {twister}, {self.data}")
             else:
                 logger.info("No available balloon twister")
                 if self.new_booking:
