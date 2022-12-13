@@ -1,3 +1,5 @@
+from operator import itemgetter
+
 from utils.get_schedules import get_schedules
 from utils.logging import logger
 
@@ -9,9 +11,8 @@ class Twister:
     def get_list(self) -> list:
         schedules = get_schedules()
         try:
-            self.schedule = schedules[self.twister_name]
+            self.schedule = sorted(schedules[self.twister_name], key=itemgetter("customer_name"))
         except KeyError as e:
             logger.info("Sorry there's no booking for this holiday.")
         
         return self.schedule
-    
