@@ -5,7 +5,7 @@ This project is a booking application designed to process the bookings of balloo
 The project can be executed by downloading the full project or cloning this repository with the following command;
 
 ```
-git clone  
+git clone https://github.com/Numostanley/BalloonTwisters.git
 ```
 
 After cloning, you can execute the program by running the following command on your terminal;
